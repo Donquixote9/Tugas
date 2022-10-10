@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form Biodata</h2>
+    <form>
+        <table>
+            <tr>
+                <td><label for="NIM">NIM</label></td>
+                <td>:</td>
+                <td><input type="number" name="NIM" id="NIM"></td>
+            </tr>
+            <tr>
+                <td><label for="nama">NAMA</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="pendidikan">JENIS KELAMIN</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="pendidikan" id="pendidikan" value="Pria">
+                    <label for="pria">Pria</label>
+                    <input type="radio" name="pendidikan" id="pendidikan" value="Wanita">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kota">JURUSAN</label></td>
+                <td>:</td>
+                <td>
+                    <select id="kota">
+                        <option value="Pilih">Pilih...</option>
+                        <option value="ILMU KOMPUTER">ILMU KOMPUTER</option>
+                        <option value="HUKUM">HUKUM</option>
+                        <option value="DKV">DKV</option>
+                        <option value="RPL">RPL</option>                    
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lang">HOBY</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="diklat" id="lang1" value="Komputer">
+                    <label for="lang">Komputer</label>
+                    <input type="checkbox" name="diklat" id="lang2" value="Musik">
+                    <label for="lang">Musik</label>
+                    <input type="checkbox" name="diklat" id="lang3" value="Olahraga">
+                    <label for="lang">Olahraga</label>
+                    <input type="checkbox" name="diklat" id="lang3" value="Travelling">
+                    <label for="lang">Travelling</label>
+                </td>
+            </tr>
+            <tr>
+                <td>CATATAN</td>
+                <td>:</td>
+                <td><textarea style="width: 250; height: 100;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="cv">FOTO</label></td>
+                <td>:</td>
+                <td><input type="file" name="FOTO" id="FOTO"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">SANDI LOGIN</label></td>
+                <td>:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="password">ULANGI SANDI LOGIN</label></td>
+                <td>:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+    
+    
+    
+            <tr>
+                <td>
+                    <br>
+                    <button type="submit" onclick="alert('Terima kasih sudah mendaftar pelatihan ini.')">Simpan</button>
+                    <button type="batal">Batal</button>
+                    <button type="peringatan">Peringatan</button>
+    
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
